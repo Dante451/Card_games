@@ -1,0 +1,17 @@
+# Card Games
+## By Dante Daciuk
+## Created 13/3/24 DMY
+
+## War: The code should contain a list of all 52 cards written out,
+## with theier number and ascii suit symbol.
+## Next, it randomly selects 26 cards and places them into a player's deck,
+## while doing the same for an "AI" deck.
+## After that, it begins a while loop where it keeps checking the cards,
+## numeric value by seeing if the correlating string is present,
+## and then determining which card is higher.
+## If it is the player's card, both players cards are placed,
+## within another list for the player, and vice versa for the opponent.
+## However, if both cards are equal, that triggers a "war" where,
+## three cards are randomly chosen and placed inside a seperate war list,
+## the next card drawn determines who wins the war and receives all the cards,
+## for their secondary list.
